@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-background-secondary: #F7F6F3;
+  --color-foreground: #37352F;
+  --color-foreground-secondary: #787774;
+  --color-border: #E3E2DE;
+  --color-accent: #2EAADC;
+  --color-accent-hover: #0B6E99;
+  --color-highlight: #E8F5FA;
+  --color-success: #0F7B6C;
+  --color-orange-bg: #FFF3DB;
+  --color-orange-text: #D9730D;
+  --font-sans: var(--font-inter);
+  --font-noto: var(--font-noto-sans-tc);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), var(--font-noto), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for Notion feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-foreground-secondary);
+}
+
+/* Selection color */
+::selection {
+  background: var(--color-highlight);
+  color: var(--color-foreground);
+}
