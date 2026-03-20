@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathify Labs - 商業計畫書封面</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  @page { size: A4; margin: 0; }
+
+  body {
+    width: 210mm;
+    height: 297mm;
+    font-family: 'Noto Sans TC', 'Plus Jakarta Sans', sans-serif;
+    background: #0A0F1C;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Background gradient mesh */
+  .bg-gradient {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 20% 80%, rgba(59, 130, 246, 0.15) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 50% at 80% 20%, rgba(139, 92, 246, 0.12) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 40% at 50% 50%, rgba(16, 185, 129, 0.06) 0%, transparent 70%);
+  }
+
+  /* Subtle grid pattern */
+  .bg-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Math formulas floating in background */
+  .math-elements {
+    position: absolute;
+    inset: 0;
+    opacity: 0.04;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2.2;
+    padding: 60px;
+    word-spacing: 20px;
+    overflow: hidden;
+  }
+
+  /* Top accent bar */
+  .accent-bar {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #3B82F6 0%, #8B5CF6 40%, #10B981 70%, #3B82F6 100%);
+  }
+
+  /* Competition badge */
+  .competition-badge {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    text-align: right;
+  }
+
+  .competition-badge .org {
+    font-size: 11px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .competition-badge .comp-name {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    margin-top: 4px;
+    font-weight: 500;
+  }
+
+  .competition-badge .team-id {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    margin-top: 6px;
+    letter-spacing: 1px;
+  }
+
+  /* Main content area */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 70px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Logo mark */
+  .logo-mark {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .logo-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #fff;
+    box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3);
+  }
+
+  .logo-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .logo-text span {
+    font-weight: 300;
+    opacity: 0.7;
+  }
+
+  /* Document type label */
+  .doc-type {
+    font-size: 13px;
+    letter-spacing: 6px;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  /* Main title */
+  .main-title {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+  }
+
+  .main-title .highlight {
+    background: linear-gradient(135deg, #60A5FA, #A78BFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Subtitle / tagline */
+  .tagline {
+    font-size: 20px;
+    color: rgba(255,255,255,0.6);
+    font-weight: 300;
+    line-height: 1.6;
+    max-width: 520px;
+    margin-bottom: 56px;
+  }
+
+  /* Key metrics strip */
+  .metrics {
+    display: flex;
+    gap: 40px;
+    padding: 28px 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .metric {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .metric-value {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .metric-value .unit {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.5);
+    margin-left: 2px;
+  }
+
+  .metric-label {
+    font-size: 11px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  /* Bottom section */
+  .bottom {
+    padding: 36px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .founder-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .founder-label {
+    font-size: 10px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .founder-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+  }
+
+  .founder-email {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+    margin-top: 2px;
+  }
+
+  .date-info {
+    text-align: right;
+  }
+
+  .date-info .year {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    color: rgba(255,255,255,0.15);
+    line-height: 1;
+  }
+
+  .date-info .date {
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+    margin-top: 4px;
+  }
+
+  /* Decorative corner elements */
+  .corner-tl, .corner-br {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+  }
+
+  .corner-tl {
+    top: 30px;
+    left: 50px;
+    border-left: 1px solid rgba(255,255,255,0.06);
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .corner-br {
+    bottom: 30px;
+    right: 50px;
+    border-right: 1px solid rgba(255,255,255,0.06);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  /* Glowing orb decoration */
+  .glow-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 0;
+  }
+
+  .glow-orb-1 {
+    width: 300px;
+    height: 300px;
+    background: rgba(59, 130, 246, 0.08);
+    top: -50px;
+    right: -50px;
+  }
+
+  .glow-orb-2 {
+    width: 200px;
+    height: 200px;
+    background: rgba(139, 92, 246, 0.06);
+    bottom: 100px;
+    left: -30px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="bg-gradient"></div>
+    <div class="bg-grid"></div>
+    <div class="math-elements">
+      y = ax² + bx + c &nbsp;&nbsp; f(x) = lim(h→0) &nbsp;&nbsp; ∫₀¹ x²dx = ⅓ &nbsp;&nbsp; sin²θ + cos²θ = 1 &nbsp;&nbsp;
+      Σ(n=1→∞) 1/n² = π²/6 &nbsp;&nbsp; dy/dx = 2x + 3 &nbsp;&nbsp; √(a² + b²) &nbsp;&nbsp; log₂(n) &nbsp;&nbsp;
+      P(A|B) = P(B|A)·P(A)/P(B) &nbsp;&nbsp; x = (-b ± √(b²-4ac)) / 2a &nbsp;&nbsp; e^(iπ) + 1 = 0 &nbsp;&nbsp;
+      ∇·F = ∂F/∂x + ∂F/∂y &nbsp;&nbsp; det(A) = ad - bc &nbsp;&nbsp; lim(x→0) sin(x)/x = 1 &nbsp;&nbsp;
+      y = mx + b &nbsp;&nbsp; a² + b² = c² &nbsp;&nbsp; ∮ F·ds &nbsp;&nbsp; Σaₙxⁿ &nbsp;&nbsp; ∂²u/∂t² = c²∇²u &nbsp;&nbsp;
+      f'(x) = nxⁿ⁻¹ &nbsp;&nbsp; ∫e^x dx = e^x + C &nbsp;&nbsp; A∩B ⊂ A∪B &nbsp;&nbsp; |z| = √(x²+y²) &nbsp;&nbsp;
+      tan(α+β) &nbsp;&nbsp; ∏(k=1→n) &nbsp;&nbsp; C(n,r) = n!/r!(n-r)! &nbsp;&nbsp; μ = Σxᵢ/n &nbsp;&nbsp;
+      σ² = E[(X-μ)²] &nbsp;&nbsp; ∂f/∂x = 0 &nbsp;&nbsp; rank(A) ≤ min(m,n) &nbsp;&nbsp; ||v|| = √(Σvᵢ²) &nbsp;&nbsp;
+      y = ax² + bx + c &nbsp;&nbsp; f(x) = lim(h→0) &nbsp;&nbsp; ∫₀¹ x²dx = ⅓ &nbsp;&nbsp; sin²θ + cos²θ = 1 &nbsp;&nbsp;
+      Σ(n=1→∞) 1/n² = π²/6 &nbsp;&nbsp; dy/dx = 2x + 3 &nbsp;&nbsp; √(a² + b²) &nbsp;&nbsp; log₂(n) &nbsp;&nbsp;
+      P(A|B) = P(B|A)·P(A)/P(B) &nbsp;&nbsp; x = (-b ± √(b²-4ac)) / 2a &nbsp;&nbsp; e^(iπ) + 1 = 0 &nbsp;&nbsp;
+      ∇·F = ∂F/∂x + ∂F/∂y &nbsp;&nbsp; det(A) = ad - bc &nbsp;&nbsp; lim(x→0) sin(x)/x = 1 &nbsp;&nbsp;
+      y = mx + b &nbsp;&nbsp; a² + b² = c² &nbsp;&nbsp; ∮ F·ds &nbsp;&nbsp; Σaₙxⁿ &nbsp;&nbsp; ∂²u/∂t² = c²∇²u &nbsp;&nbsp;
+      f'(x) = nxⁿ⁻¹ &nbsp;&nbsp; ∫e^x dx = e^x + C &nbsp;&nbsp; A∩B ⊂ A∪B &nbsp;&nbsp; |z| = √(x²+y²) &nbsp;&nbsp;
+    </div>
+
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="corner-tl"></div>
+    <div class="corner-br"></div>
+
+    <div class="accent-bar"></div>
+
+    <div class="competition-badge">
+      <div class="org">國家發展委員會</div>
+      <div class="comp-name">創業綻放 — 創業大聯盟競賽</div>
+      <div class="team-id">B0274 ｜ 生活驅動 · 消費生活組</div>
+    </div>
+
+    <div class="content">
+      <div class="logo-mark">
+        <div class="logo-icon">M</div>
+        <div class="logo-text">Mathify <span>Labs</span></div>
+      </div>
+
+      <div class="doc-type">商 業 計 畫 書</div>
+
+      <h1 class="main-title">
+        讓每個孩子都有<br>
+        <span class="highlight">最有耐心的</span><br>
+        <span class="highlight">AI 數學老師</span>
+      </h1>
+
+      <p class="tagline">
+        AI 驅動的一站式國高中數學學習平台<br>
+        用視覺化解題，讓數學概念「看得見」
+      </p>
+
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric-value">117<span class="unit">萬</span></div>
+          <div class="metric-label">目標市場學生數</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">30.5<span class="unit">%</span></div>
+          <div class="metric-label">全球 AI TUTORS CAGR</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">79<span class="unit">%</span></div>
+          <div class="metric-label">貢獻利潤率</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">$600<span class="unit">/月</span></div>
+          <div class="metric-label">訂閱費用</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="founder-info">
+        <div class="founder-label">創辦人 Founder</div>
+        <div class="founder-name">劉明燁 Bennie Liu</div>
+        <div class="founder-email">bennie.liu@mathify.io</div>
+      </div>
+      <div class="date-info">
+        <div class="year">2026</div>
+        <div class="date">March 2026 · Confidential</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
