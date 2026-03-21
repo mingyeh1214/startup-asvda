@@ -1,0 +1,1013 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "dWSzZ",
+      "x": -578,
+      "y": 4557,
+      "name": "封面",
+      "width": 960,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "cFnrh",
+          "x": 416.0000631738135,
+          "y": 785.0467517941943,
+          "opacity": 0.4,
+          "rotation": 0.11045027099512163,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./Gemini_Generated_Image_arh1tjarh1tjarh1-removebg-preview.png",
+            "mode": "fill"
+          },
+          "width": 543,
+          "height": 543
+        },
+        {
+          "type": "rectangle",
+          "id": "kgzG1",
+          "x": 0,
+          "y": 0,
+          "name": "Red Left Strip",
+          "fill": "#2563EB",
+          "width": 30,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "U1IQs",
+          "x": 320,
+          "y": 0,
+          "name": "Grid V",
+          "fill": "#F2F2F2",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "2q7Nc",
+          "x": 640,
+          "y": 0,
+          "name": "Grid V2",
+          "fill": "#F2F2F2",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "9cDC3",
+          "x": 30,
+          "y": 340,
+          "name": "Grid H1",
+          "fill": "#F2F2F2",
+          "width": 930,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "tJKYC",
+          "x": 30,
+          "y": 680,
+          "name": "Grid H2",
+          "fill": "#F2F2F2",
+          "width": 930,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "Bh6db",
+          "x": 30,
+          "y": 1019,
+          "name": "Grid H3",
+          "fill": "#F2F2F2",
+          "width": 930,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "qnwR6",
+          "x": 640,
+          "y": 0,
+          "name": "Red Accent Block",
+          "fill": "#2563EB",
+          "width": 320,
+          "height": 340
+        },
+        {
+          "type": "text",
+          "id": "B9vJO",
+          "x": 80,
+          "y": 80,
+          "name": "Competition",
+          "enabled": false,
+          "fill": "#7A7A7A",
+          "textGrowth": "fixed-width",
+          "width": 500,
+          "content": "「創業綻放」\n創業大聯盟競賽",
+          "lineHeight": 1.5,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 24,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "dslPG",
+          "x": 660,
+          "y": 60,
+          "name": "BP Label EN",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 280,
+          "content": "BUSINESS\nPLAN",
+          "lineHeight": 1.2,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 48,
+          "fontWeight": "600"
+        },
+        {
+          "type": "text",
+          "id": "U9hg8",
+          "x": 70,
+          "y": 471.0602458320568,
+          "name": "Main Title",
+          "rotation": 0.11045027099512163,
+          "fill": "#0D0D0D",
+          "textGrowth": "fixed-width",
+          "width": 550,
+          "content": "商業計劃書",
+          "lineHeight": 1.1,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 80,
+          "fontWeight": "600",
+          "letterSpacing": -3
+        },
+        {
+          "type": "rectangle",
+          "id": "rw9aU",
+          "x": 70,
+          "y": 629,
+          "name": "Divider",
+          "fill": "#5b8ec9ff",
+          "width": 571,
+          "height": 3
+        },
+        {
+          "type": "text",
+          "id": "4kL2G",
+          "x": 76,
+          "y": 738,
+          "name": "Category",
+          "fill": "#B0B0B0",
+          "content": "報名類別",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "WNK3S",
+          "x": 76,
+          "y": 763,
+          "name": "Category Value",
+          "fill": "#0D0D0D",
+          "content": "生活驅動 — 消費生活組｜非六都｜團隊",
+          "fontFamily": "Inter",
+          "fontSize": 28,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "lnkjI",
+          "x": 76,
+          "y": 828,
+          "name": "Team Label",
+          "fill": "#B0B0B0",
+          "content": "團隊名稱",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "MfGgY",
+          "x": 125,
+          "y": 860,
+          "name": "Team Name",
+          "fill": "#0D0D0D",
+          "content": "Mathify Labs",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 28,
+          "fontWeight": "600",
+          "letterSpacing": -1
+        },
+        {
+          "type": "text",
+          "id": "oui4k",
+          "x": 76,
+          "y": 928,
+          "name": "Rep Label",
+          "fill": "#B0B0B0",
+          "content": "團隊代表人",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "2NdDv",
+          "x": 76,
+          "y": 953,
+          "name": "Rep Name",
+          "fill": "#0D0D0D",
+          "content": "劉明燁（Bennie Liu）",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 28,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "SYNuU",
+          "x": 80,
+          "y": 1058,
+          "name": "ID Badge",
+          "width": 140,
+          "height": 48,
+          "fill": "#0D0D0D",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gsEQa",
+              "name": "ID Text",
+              "fill": "#FFFFFF",
+              "content": "B0274",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 20,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "KkaOH",
+          "x": 240,
+          "y": 1070,
+          "name": "Date",
+          "fill": "#7A7A7A",
+          "content": "2026 年 3 月 31 日",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "iVaBv",
+          "x": 0,
+          "y": 1328,
+          "name": "Bottom Border",
+          "fill": "#2563EB",
+          "width": 960,
+          "height": 30
+        },
+        {
+          "type": "frame",
+          "id": "0rHlq",
+          "x": 30,
+          "y": 30,
+          "name": "compLogo",
+          "width": 261,
+          "height": 120,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./04.複賽/圖片/創業綻放logo.png",
+            "mode": "fit"
+          },
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+        {
+          "type": "rectangle",
+          "id": "GJojG",
+          "x": 76,
+          "y": 863,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./04.複賽/圖片/logo.png",
+            "mode": "fill"
+          },
+          "width": 39,
+          "height": 30
+        },
+        {
+          "type": "text",
+          "id": "4Woe2",
+          "x": 70,
+          "y": 576,
+          "fill": "#5B8EC9",
+          "textGrowth": "fixed-width",
+          "width": 800,
+          "content": "讓每位學生都有專屬 AI 數學家教",
+          "fontFamily": "Inter",
+          "fontSize": 36,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "x54fM",
+      "x": 664,
+      "y": 4557,
+      "name": "願景",
+      "width": 960,
+      "height": 1358,
+      "fill": "#FAFAF9",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "QiyNz",
+          "x": 0,
+          "y": 0,
+          "name": "contentB",
+          "width": 960,
+          "height": 1358,
+          "layout": "vertical",
+          "padding": [
+            120,
+            100,
+            80,
+            100
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cFGqq",
+              "name": "labelB",
+              "fill": "#6366F1",
+              "content": "VISION",
+              "fontFamily": "DM Sans",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "letterSpacing": 8
+            },
+            {
+              "type": "frame",
+              "id": "uJRWz",
+              "name": "spacerB1",
+              "width": 10,
+              "height": 16,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "Gkx4q",
+              "name": "titleB",
+              "fill": "#1a1a1e",
+              "content": "願景",
+              "fontFamily": "Noto Serif TC",
+              "fontSize": 76,
+              "fontWeight": "700",
+              "letterSpacing": 10
+            },
+            {
+              "type": "frame",
+              "id": "cirFl",
+              "name": "spacerB2",
+              "width": 10,
+              "height": 32,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "JhAWA",
+              "name": "accentLine",
+              "width": 100,
+              "height": 5,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#6366F1",
+                    "position": 0
+                  },
+                  {
+                    "color": "#32D583",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            {
+              "type": "frame",
+              "id": "DvBa2",
+              "name": "spacerB3",
+              "width": 10,
+              "height": 40,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "tkhdg",
+              "name": "subtitleB",
+              "fill": "#1a1a1e",
+              "textGrowth": "fixed-width",
+              "width": 650,
+              "content": "讓每個孩子都擁有\n公平的學習機會",
+              "lineHeight": 1.6,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 44,
+              "fontWeight": "600",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "J6cLG",
+              "name": "spacerB4",
+              "width": 10,
+              "height": 36,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "gzE47",
+              "name": "bodyB",
+              "fill": "#6B6B70",
+              "textGrowth": "fixed-width",
+              "width": 620,
+              "content": "Mathify Labs 不僅僅是打造一個解題工具，更是推動教育平權的力量。我們致力於消除城鄉差距，讓偏鄉的孩子也能透過 AI，享受到如同頂尖家教般的引導式學習。",
+              "lineHeight": 1.8,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 22
+            },
+            {
+              "type": "frame",
+              "id": "8hSY0",
+              "name": "spacerB5",
+              "width": 10,
+              "height": 48,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "YZa8W",
+              "name": "quoteFrame",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3l1Wl",
+                  "name": "quoteLine",
+                  "width": 5,
+                  "height": 64,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 180,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#6366F1",
+                        "position": 0
+                      },
+                      {
+                        "color": "#32D583",
+                        "position": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "58CNU",
+                  "name": "quoteText",
+                  "fill": "#4A4A50",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Join us to redefine Math Education.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 28,
+                  "fontWeight": "500",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WHkPw",
+              "name": "spacerB6",
+              "width": 10,
+              "height": 60,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "Wmp8l",
+              "name": "iconRow",
+              "gap": 56,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4m9Bs",
+                  "name": "icon1frame",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ii2TE",
+                      "width": 76,
+                      "height": 76,
+                      "fill": "#6366F110",
+                      "cornerRadius": 18,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "74x4J",
+                          "width": 38,
+                          "height": 38,
+                          "iconFontName": "equal",
+                          "iconFontFamily": "lucide",
+                          "fill": "#6366F1"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "gdTrq",
+                      "name": "icon1text",
+                      "fill": "#4A4A50",
+                      "content": "教育平權",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WI8NW",
+                  "name": "icon2frame",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "34P6R",
+                      "width": 76,
+                      "height": 76,
+                      "fill": "#32D58310",
+                      "cornerRadius": 18,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "xhbo6",
+                          "width": 38,
+                          "height": 38,
+                          "iconFontName": "brain",
+                          "iconFontFamily": "lucide",
+                          "fill": "#32D583"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "EFi1N",
+                      "name": "icon2text",
+                      "fill": "#4A4A50",
+                      "content": "AI 引導",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VjXfg",
+                  "name": "icon3frame",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VWP14",
+                      "width": 76,
+                      "height": 76,
+                      "fill": "#E85A4F10",
+                      "cornerRadius": 18,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "vvI6X",
+                          "width": 38,
+                          "height": 38,
+                          "iconFontName": "map-pin",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E85A4F"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "35rY6",
+                      "name": "icon3text",
+                      "fill": "#4A4A50",
+                      "content": "城鄉連結",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "I4tQ6",
+          "x": 515,
+          "y": 950,
+          "opacity": 0.8,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "教育平權-removebg-preview.png",
+            "mode": "fill"
+          },
+          "width": 350,
+          "height": 350
+        },
+        {
+          "type": "frame",
+          "id": "rokXH",
+          "layoutPosition": "absolute",
+          "x": 76,
+          "y": 50,
+          "name": "logoFrame",
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Teavr",
+              "flipX": true,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "logo.png",
+                "mode": "fill"
+              },
+              "width": 68,
+              "height": 52
+            },
+            {
+              "type": "text",
+              "id": "gmF4V",
+              "name": "logoText",
+              "fill": "#1a1a1e",
+              "content": "Mathify Labs",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 28,
+              "fontWeight": "600",
+              "letterSpacing": -0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "5F3TB",
+      "x": 1947,
+      "y": 4557,
+      "name": "封底",
+      "width": 960,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "6bQXf",
+          "x": 0,
+          "y": 0,
+          "name": "leftStrip",
+          "fill": "#2563EB",
+          "width": 30,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "Dupt4",
+          "x": 0,
+          "y": 1328,
+          "name": "bottomBorder",
+          "fill": "#2563EB",
+          "width": 960,
+          "height": 30
+        },
+        {
+          "type": "rectangle",
+          "id": "5khdQ",
+          "x": 320,
+          "y": 0,
+          "name": "gridV1",
+          "fill": "#F2F2F2",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "cA5hT",
+          "x": 640,
+          "y": 0,
+          "name": "gridV2",
+          "fill": "#F2F2F2",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "A82Mu",
+          "x": 30,
+          "y": 340,
+          "name": "gridH1",
+          "fill": "#F2F2F2",
+          "width": 930,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "sjkkV",
+          "x": 30,
+          "y": 680,
+          "name": "gridH2",
+          "fill": "#F2F2F2",
+          "width": 930,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "ggrwO",
+          "x": 30,
+          "y": 1019,
+          "name": "gridH3",
+          "fill": "#F2F2F2",
+          "width": 930,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "iV2q4",
+          "x": 640,
+          "y": 1019,
+          "name": "accentBlock",
+          "fill": "#2563EB",
+          "width": 320,
+          "height": 309
+        },
+        {
+          "type": "frame",
+          "id": "LhatP",
+          "x": 76,
+          "y": 560,
+          "name": "logoBack",
+          "gap": 14,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Aja1u",
+              "name": "logoImg",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./04.複賽/圖片/logo.png",
+                "mode": "fill"
+              },
+              "width": 60,
+              "height": 46
+            },
+            {
+              "type": "text",
+              "id": "TbZpT",
+              "name": "logoTxt",
+              "fill": "#0D0D0D",
+              "content": "Mathify Labs",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 40,
+              "fontWeight": "600",
+              "letterSpacing": -1.5
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "qpd4Y",
+          "x": 76,
+          "y": 630,
+          "name": "tagline",
+          "fill": "#5B8EC9",
+          "content": "讓每位學生都有專屬 AI 數學家教",
+          "fontFamily": "Inter",
+          "fontSize": 24,
+          "fontWeight": "500",
+          "letterSpacing": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "rC4oO",
+          "x": 76,
+          "y": 680,
+          "name": "divider",
+          "fill": "#5b8ec9ff",
+          "width": 500,
+          "height": 3
+        },
+        {
+          "type": "text",
+          "id": "VnOpK",
+          "x": 76,
+          "y": 720,
+          "name": "contactLabel",
+          "fill": "#B0B0B0",
+          "content": "CONTACT",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "letterSpacing": 6
+        },
+        {
+          "type": "icon_font",
+          "id": "ybEjp",
+          "x": 76,
+          "y": 770,
+          "name": "emailIcon",
+          "width": 22,
+          "height": 22,
+          "iconFontName": "mail",
+          "iconFontFamily": "lucide",
+          "fill": "#0D0D0D"
+        },
+        {
+          "type": "text",
+          "id": "DBy6l",
+          "x": 110,
+          "y": 770,
+          "name": "emailTxt",
+          "fill": "#0D0D0D",
+          "content": "bennie.liu@mathify.io",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 22,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "kMenS",
+          "x": 30,
+          "y": 30,
+          "name": "compLogo",
+          "width": 261,
+          "height": 120,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./04.複賽/圖片/創業綻放logo.png",
+            "mode": "fit"
+          }
+        },
+        {
+          "type": "text",
+          "id": "UFimb",
+          "x": 76,
+          "y": 870,
+          "name": "teamLabel",
+          "fill": "#B0B0B0",
+          "content": "TEAM",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 14,
+          "fontWeight": "600",
+          "letterSpacing": 6
+        },
+        {
+          "type": "text",
+          "id": "M0kc8",
+          "x": 76,
+          "y": 910,
+          "name": "repLabel",
+          "fill": "#B0B0B0",
+          "content": "團隊代表人",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "RqO6r",
+          "x": 76,
+          "y": 940,
+          "name": "repName",
+          "fill": "#0D0D0D",
+          "content": "劉明燁（Bennie Liu）",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 24,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "h0YTW",
+          "x": 76,
+          "y": 1000,
+          "name": "idBadge",
+          "width": 140,
+          "height": 48,
+          "fill": "#0D0D0D",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "VPUSz",
+              "name": "idText",
+              "fill": "#FFFFFF",
+              "content": "B0274",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 20,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "TTUsN",
+          "x": 680,
+          "y": 1100,
+          "name": "thankYou",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 250,
+          "content": "THANK\nYOU",
+          "lineHeight": 1.1,
+          "textAlign": "center",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 64,
+          "fontWeight": "600"
+        },
+        {
+          "type": "rectangle",
+          "id": "C1q5q",
+          "x": 500,
+          "y": 100,
+          "name": "bgLogo",
+          "opacity": 0.06,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./Gemini_Generated_Image_arh1tjarh1tjarh1-removebg-preview.png",
+            "mode": "fill"
+          },
+          "width": 400,
+          "height": 308
+        }
+      ]
+    }
+  ]
+}
