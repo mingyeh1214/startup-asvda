@@ -1,0 +1,1147 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "JUqVX",
+      "x": 0,
+      "y": 0,
+      "name": "封面1 - 深色高端",
+      "width": 960,
+      "height": 1358,
+      "fill": "#0B0B0E",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "lzIiU",
+          "x": 0,
+          "y": 0,
+          "name": "Gradient Overlay",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 160,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#6366F118",
+                "position": 0
+              },
+              {
+                "color": "#32D58310",
+                "position": 0.4
+              },
+              {
+                "color": "#0B0B0E",
+                "position": 0.8
+              }
+            ]
+          },
+          "width": 960,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "ya04p",
+          "x": 0,
+          "y": 0,
+          "name": "Top Accent",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#6366F1",
+                "position": 0
+              },
+              {
+                "color": "#32D583",
+                "position": 0.6
+              },
+              {
+                "color": "#E85A4F",
+                "position": 1
+              }
+            ]
+          },
+          "width": 960,
+          "height": 8
+        },
+        {
+          "type": "rectangle",
+          "cornerRadius": 3,
+          "id": "ijQYc",
+          "x": 80,
+          "y": 400,
+          "name": "Left Accent Bar",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#6366F1",
+                "position": 0
+              },
+              {
+                "color": "#32D583",
+                "position": 1
+              }
+            ]
+          },
+          "width": 5,
+          "height": 320
+        },
+        {
+          "type": "rectangle",
+          "id": "V8nzw",
+          "x": 680,
+          "y": 80,
+          "name": "Geo Diamond 1",
+          "rotation": 45,
+          "fill": "#6366F106",
+          "width": 280,
+          "height": 280,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#6366F118"
+          }
+        },
+        {
+          "type": "rectangle",
+          "id": "QRdzl",
+          "x": 740,
+          "y": 140,
+          "name": "Geo Diamond 2",
+          "rotation": 45,
+          "fill": "#32D58306",
+          "width": 200,
+          "height": 200,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#32D58318"
+          }
+        },
+        {
+          "type": "ellipse",
+          "id": "saBb4",
+          "x": 600,
+          "y": 800,
+          "name": "Glow",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "radial",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#6366F112",
+                "position": 0
+              },
+              {
+                "color": "#6366F100",
+                "position": 1
+              }
+            ]
+          },
+          "width": 400,
+          "height": 400
+        },
+        {
+          "type": "rectangle",
+          "id": "3PVkK",
+          "x": 0,
+          "y": 1350,
+          "name": "Bottom Accent",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#6366F1",
+                "position": 0
+              },
+              {
+                "color": "#32D583",
+                "position": 0.6
+              },
+              {
+                "color": "#E85A4F",
+                "position": 1
+              }
+            ]
+          },
+          "width": 960,
+          "height": 8
+        },
+        {
+          "type": "text",
+          "id": "SFhZC",
+          "x": 110,
+          "y": 120,
+          "name": "Competition",
+          "fill": "#6B6B70",
+          "content": "「創業綻放」創業大聯盟競賽",
+          "fontFamily": "Inter",
+          "fontSize": 24,
+          "fontWeight": "500",
+          "letterSpacing": 1
+        },
+        {
+          "type": "text",
+          "id": "QFBgH",
+          "x": 110,
+          "y": 410,
+          "name": "Main Title",
+          "fill": "#FAFAF9",
+          "textGrowth": "fixed-width",
+          "width": 600,
+          "content": "商業\n計劃書",
+          "lineHeight": 1.1,
+          "fontFamily": "Inter",
+          "fontSize": 110,
+          "fontWeight": "700",
+          "letterSpacing": -2
+        },
+        {
+          "type": "text",
+          "id": "cA3cU",
+          "x": 114,
+          "y": 680,
+          "name": "English Title",
+          "fill": "#6366F1",
+          "content": "BUSINESS PLAN",
+          "fontFamily": "Inter",
+          "fontSize": 30,
+          "fontWeight": "300",
+          "letterSpacing": 10
+        },
+        {
+          "type": "rectangle",
+          "id": "OlNJb",
+          "x": 110,
+          "y": 760,
+          "name": "Divider",
+          "fill": "#2A2A2E",
+          "width": 160,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "hXWmn",
+          "x": 110,
+          "y": 800,
+          "name": "Category Label",
+          "fill": "#4A4A50",
+          "content": "報名類別",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "016ay",
+          "x": 110,
+          "y": 828,
+          "name": "Category Value",
+          "fill": "#94A3B8",
+          "content": "生活驅動 — 消費生活組｜非六都｜團隊",
+          "fontFamily": "Inter",
+          "fontSize": 20,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "U3QrS",
+          "x": 110,
+          "y": 900,
+          "name": "Team Label",
+          "fill": "#4A4A50",
+          "content": "團隊名稱",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "7GxKr",
+          "x": 110,
+          "y": 928,
+          "name": "Team Name",
+          "fill": "#FAFAF9",
+          "content": "Mathify Labs",
+          "fontFamily": "Inter",
+          "fontSize": 36,
+          "fontWeight": "600",
+          "letterSpacing": -0.5
+        },
+        {
+          "type": "text",
+          "id": "1sdM0",
+          "x": 110,
+          "y": 1000,
+          "name": "Rep Label",
+          "fill": "#4A4A50",
+          "content": "團隊代表人",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "P3fcO",
+          "x": 110,
+          "y": 1028,
+          "name": "Rep Name",
+          "fill": "#FAFAF9",
+          "content": "劉明燁（Bennie Liu）",
+          "fontFamily": "Inter",
+          "fontSize": 28,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "MVp5R",
+          "x": 110,
+          "y": 1120,
+          "name": "Team ID",
+          "fill": "#32D583",
+          "content": "B0274",
+          "fontFamily": "Inter",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 4
+        },
+        {
+          "type": "text",
+          "id": "EM5Ex",
+          "x": 110,
+          "y": 1160,
+          "name": "Date",
+          "fill": "#6B6B70",
+          "content": "2026 年 3 月 31 日",
+          "fontFamily": "Inter",
+          "fontSize": 18
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "CHa10",
+      "x": 1100,
+      "y": 0,
+      "name": "封面2 - 瑞士極簡",
+      "width": 960,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "Qzk0I",
+          "x": 0,
+          "y": 0,
+          "name": "Red Left Strip",
+          "fill": "#E42313",
+          "width": 10,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "MzQlg",
+          "x": 320,
+          "y": 0,
+          "name": "Grid V",
+          "fill": "#F2F2F2",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "dowJN",
+          "x": 640,
+          "y": 0,
+          "name": "Grid V2",
+          "fill": "#F2F2F2",
+          "width": 1,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "Txg4H",
+          "x": 0,
+          "y": 340,
+          "name": "Grid H1",
+          "fill": "#F2F2F2",
+          "width": 960,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "NKYoV",
+          "x": 0,
+          "y": 680,
+          "name": "Grid H2",
+          "fill": "#F2F2F2",
+          "width": 960,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "2RJyX",
+          "x": 0,
+          "y": 1020,
+          "name": "Grid H3",
+          "fill": "#F2F2F2",
+          "width": 960,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "SByU9",
+          "x": 640,
+          "y": 0,
+          "name": "Red Accent Block",
+          "fill": "#E42313",
+          "width": 320,
+          "height": 340
+        },
+        {
+          "type": "text",
+          "id": "G88nW",
+          "x": 80,
+          "y": 80,
+          "name": "Competition",
+          "fill": "#7A7A7A",
+          "textGrowth": "fixed-width",
+          "width": 500,
+          "content": "「創業綻放」\n創業大聯盟競賽",
+          "lineHeight": 1.5,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 22,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "u4JIQ",
+          "x": 660,
+          "y": 60,
+          "name": "BP Label EN",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 280,
+          "content": "BUSINESS\nPLAN",
+          "lineHeight": 1.2,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 48,
+          "fontWeight": "600"
+        },
+        {
+          "type": "text",
+          "id": "Dl9Wc",
+          "x": 80,
+          "y": 380,
+          "name": "Main Title",
+          "fill": "#0D0D0D",
+          "textGrowth": "fixed-width",
+          "width": 600,
+          "content": "商業\n計劃書",
+          "lineHeight": 1.1,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 120,
+          "fontWeight": "600",
+          "letterSpacing": -3
+        },
+        {
+          "type": "ellipse",
+          "id": "SZzEc",
+          "x": 520,
+          "y": 600,
+          "name": "Red Dot",
+          "fill": "#E42313",
+          "width": 28,
+          "height": 28
+        },
+        {
+          "type": "rectangle",
+          "id": "SglAa",
+          "x": 80,
+          "y": 700,
+          "name": "Divider",
+          "fill": "#E42313",
+          "width": 120,
+          "height": 2
+        },
+        {
+          "type": "text",
+          "id": "IZPr5",
+          "x": 80,
+          "y": 730,
+          "name": "Category",
+          "fill": "#B0B0B0",
+          "content": "報名類別",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "SlKrs",
+          "x": 80,
+          "y": 755,
+          "name": "Category Value",
+          "fill": "#0D0D0D",
+          "content": "生活驅動 — 消費生活組｜非六都｜團隊",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "SYNdX",
+          "x": 80,
+          "y": 840,
+          "name": "Team Label",
+          "fill": "#B0B0B0",
+          "content": "團隊名稱",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "g9U1d",
+          "x": 80,
+          "y": 865,
+          "name": "Team Name",
+          "fill": "#0D0D0D",
+          "content": "Mathify Labs",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 40,
+          "fontWeight": "600",
+          "letterSpacing": -1
+        },
+        {
+          "type": "text",
+          "id": "exUDc",
+          "x": 80,
+          "y": 940,
+          "name": "Rep Label",
+          "fill": "#B0B0B0",
+          "content": "團隊代表人",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "swkCP",
+          "x": 80,
+          "y": 965,
+          "name": "Rep Name",
+          "fill": "#0D0D0D",
+          "content": "劉明燁（Bennie Liu）",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 28,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "qAQQ2",
+          "x": 80,
+          "y": 1060,
+          "name": "ID Badge",
+          "width": 140,
+          "height": 48,
+          "fill": "#0D0D0D",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "inS7x",
+              "name": "ID Text",
+              "fill": "#FFFFFF",
+              "content": "B0274",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 20,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "8k7Dn",
+          "x": 240,
+          "y": 1072,
+          "name": "Date",
+          "fill": "#7A7A7A",
+          "content": "2026 年 3 月 31 日",
+          "fontFamily": "Inter",
+          "fontSize": 16
+        },
+        {
+          "type": "rectangle",
+          "id": "xzMyH",
+          "x": 0,
+          "y": 1348,
+          "name": "Bottom Border",
+          "fill": "#E42313",
+          "width": 960,
+          "height": 10
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lmpdg",
+      "x": 2200,
+      "y": 0,
+      "name": "封面3 - 科技風格",
+      "width": 960,
+      "height": 1358,
+      "fill": "#0A0F1C",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "K9qlb",
+          "x": 0,
+          "y": 0,
+          "name": "BG Gradient",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 170,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#1E293B40",
+                "position": 0
+              },
+              {
+                "color": "#0A0F1C",
+                "position": 0.6
+              }
+            ]
+          },
+          "width": 960,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "AQhQ8",
+          "x": 0,
+          "y": 0,
+          "name": "Cyan Top Line",
+          "fill": "#22D3EE",
+          "width": 960,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "0Lmm6",
+          "x": 80,
+          "y": 200,
+          "name": "Grid Dot 1",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "Ty0JC",
+          "x": 160,
+          "y": 200,
+          "name": "Grid Dot 2",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "LqK9m",
+          "x": 240,
+          "y": 200,
+          "name": "Grid Dot 3",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "kPiZN",
+          "x": 320,
+          "y": 200,
+          "name": "Grid Dot 4",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "aQDW3",
+          "x": 80,
+          "y": 280,
+          "name": "Grid Dot 5",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "quSpg",
+          "x": 160,
+          "y": 280,
+          "name": "Grid Dot 6",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "R5A9j",
+          "x": 240,
+          "y": 280,
+          "name": "Grid Dot 7",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "ellipse",
+          "id": "GO32b",
+          "x": 320,
+          "y": 280,
+          "name": "Grid Dot 8",
+          "fill": "#22D3EE30",
+          "width": 4,
+          "height": 4
+        },
+        {
+          "type": "rectangle",
+          "id": "1oMQO",
+          "x": 600,
+          "y": 900,
+          "name": "Circuit H",
+          "fill": "#22D3EE15",
+          "width": 280,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "kE15C",
+          "x": 880,
+          "y": 900,
+          "name": "Circuit V",
+          "fill": "#22D3EE15",
+          "width": 1,
+          "height": 200
+        },
+        {
+          "type": "ellipse",
+          "id": "hHuYN",
+          "x": 873,
+          "y": 1093,
+          "name": "Circuit Node",
+          "fill": "#0A0F1C",
+          "width": 14,
+          "height": 14,
+          "stroke": {
+            "thickness": 2,
+            "fill": "#22D3EE30"
+          }
+        },
+        {
+          "type": "ellipse",
+          "id": "Mjiti",
+          "x": 550,
+          "y": 250,
+          "name": "Glow Orb",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "radial",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#22D3EE08",
+                "position": 0
+              },
+              {
+                "color": "#22D3EE00",
+                "position": 1
+              }
+            ]
+          },
+          "width": 400,
+          "height": 400
+        },
+        {
+          "type": "text",
+          "id": "6S0h5",
+          "x": 80,
+          "y": 60,
+          "name": "Terminal Tag",
+          "fill": "#22D3EE",
+          "content": "// BUSINESS_PLAN.DOC",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "letterSpacing": 1.5
+        },
+        {
+          "type": "text",
+          "id": "QWDla",
+          "x": 80,
+          "y": 120,
+          "name": "Competition",
+          "fill": "#64748B",
+          "content": "「創業綻放」創業大聯盟競賽",
+          "fontFamily": "Inter",
+          "fontSize": 22,
+          "fontWeight": "500"
+        },
+        {
+          "type": "rectangle",
+          "cornerRadius": 2,
+          "id": "PQJrm",
+          "x": 80,
+          "y": 360,
+          "name": "Cyan Left Bar",
+          "fill": "#22D3EE",
+          "width": 4,
+          "height": 300
+        },
+        {
+          "type": "text",
+          "id": "Q7Wmk",
+          "x": 110,
+          "y": 370,
+          "name": "Main Title",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 600,
+          "content": "商業\n計劃書",
+          "lineHeight": 1.1,
+          "fontFamily": "Inter",
+          "fontSize": 110,
+          "fontWeight": "700",
+          "letterSpacing": -2
+        },
+        {
+          "type": "text",
+          "id": "iEqEG",
+          "x": 114,
+          "y": 640,
+          "name": "English Title",
+          "fill": "#22D3EE",
+          "content": "BUSINESS PLAN",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 28,
+          "fontWeight": "700",
+          "letterSpacing": 6
+        },
+        {
+          "type": "text",
+          "id": "40L3T",
+          "x": 114,
+          "y": 690,
+          "name": "Status",
+          "fill": "#475569",
+          "content": "─── v1.0 ── 2026.03.31 ───",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 14
+        },
+        {
+          "type": "frame",
+          "id": "zor4r",
+          "x": 80,
+          "y": 780,
+          "name": "Info Card",
+          "width": 500,
+          "fill": "#1E293B",
+          "cornerRadius": 12,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#22D3EE10"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 28,
+          "children": [
+            {
+              "type": "frame",
+              "id": "8tYGz",
+              "name": "Cat Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kIhcv",
+                  "name": "Cat Label",
+                  "fill": "#475569",
+                  "content": "CATEGORY",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "s4hTY",
+                  "name": "Cat Value",
+                  "fill": "#94A3B8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "生活驅動 — 消費生活組｜非六都｜團隊",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eDLao",
+              "name": "Team Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ypP2k",
+                  "name": "Team Label",
+                  "fill": "#475569",
+                  "content": "TEAM",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "l0V20",
+                  "name": "Team Value",
+                  "fill": "#FFFFFF",
+                  "content": "Mathify Labs",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W5yDn",
+              "name": "Rep Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dcQ77",
+                  "name": "Rep Label",
+                  "fill": "#475569",
+                  "content": "REPRESENTATIVE",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "OX6D9",
+                  "name": "Rep Value",
+                  "fill": "#FFFFFF",
+                  "content": "劉明燁（Bennie Liu）",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "btKr0",
+          "x": 80,
+          "y": 1200,
+          "name": "ID Badge",
+          "width": 140,
+          "height": 44,
+          "fill": "#22D3EE",
+          "cornerRadius": 6,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "9y9aH",
+              "name": "ID Text",
+              "fill": "#0A0F1C",
+              "content": "B0274",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Zpt7o",
+          "x": 240,
+          "y": 1210,
+          "name": "Date",
+          "fill": "#64748B",
+          "content": "2026 年 3 月 31 日",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 14,
+          "fontWeight": "500"
+        },
+        {
+          "type": "rectangle",
+          "id": "oWb5O",
+          "x": 0,
+          "y": 1354,
+          "name": "Bottom Cyan Line",
+          "fill": "#22D3EE",
+          "width": 960,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "0wqMb",
+      "x": 3300,
+      "y": 0,
+      "name": "封面4 - 原檔風格優化",
+      "width": 960,
+      "height": 1358,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "qoX8j",
+          "x": 0,
+          "y": 0,
+          "name": "Left Blue Bar",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#1A5276",
+                "position": 0
+              },
+              {
+                "color": "#2F5496",
+                "position": 0.5
+              },
+              {
+                "color": "#4472C4",
+                "position": 1
+              }
+            ]
+          },
+          "width": 8,
+          "height": 1358
+        },
+        {
+          "type": "rectangle",
+          "id": "nUmU5",
+          "x": 80,
+          "y": 100,
+          "name": "Top Deco Line",
+          "fill": "#2F5496",
+          "width": 800,
+          "height": 2
+        },
+        {
+          "type": "rectangle",
+          "id": "R4USe",
+          "x": 80,
+          "y": 106,
+          "name": "Top Deco Line Thin",
+          "fill": "#E7E6E6",
+          "width": 800,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "SLVDm",
+          "x": 280,
+          "y": 160,
+          "name": "Illustration Frame",
+          "width": 400,
+          "height": 400,
+          "fill": "#F4F7FA",
+          "cornerRadius": 12,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#E7E6E6"
+          }
+        },
+        {
+          "type": "text",
+          "id": "YoQLm",
+          "x": 858,
+          "y": 620,
+          "name": "Competition Label",
+          "fill": "#7F8C8D",
+          "textGrowth": "fixed-width",
+          "width": 780,
+          "content": "「創業綻放」創業大聯盟競賽",
+          "textAlign": "right",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "letterSpacing": 3
+        }
+      ]
+    }
+  ]
+}
